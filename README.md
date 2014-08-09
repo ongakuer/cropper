@@ -1,3 +1,10 @@
+###修正裁剪错误
+
+CropOverlayView中的```initCropWindow```判断。在使用setFixedAspectRatio设置裁剪区域异常
+
+
+-------------
+
 Cropper
 =======
 The Cropper is an image cropping tool. It provides a way to set an image in XML and programmatically, and displays a resizable crop window on top of the image. Calling the method getCroppedImage() will then return the Bitmap marked by the crop window.
